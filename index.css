@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#main-div {
+    width: 550px;
+    height: 729px;
+
+    margin: 20px auto;
+}
+
+#upper-div {
+    width: 550px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6943FF;
+
+
+}
+
+#main-txt {
+    width: 448.4px;
+    height: 38px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+}
+
+#input-txt {
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    color: white;
+    font-size: 58px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#convert-btn {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 16px;
+}
+
+#lower-div {
+    width: 550px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F4F4F4;
+
+}
+
+.units-div {
+    width: 500px;
+    height: 108.57px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bold-txt {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.light-txt {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 300;
+}
