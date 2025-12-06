@@ -2,13 +2,8 @@ let resultLength = document.getElementById("result-length")
 let resultVolume = document.getElementById("result-volume")
 let resultMass = document.getElementById("result-mass")
 const inputTxt = document.getElementById("input-txt")
+inputTxt.textContent = 0
 
-
-/*
-1 meter = 3.281 feet
-1 liter = 0.264 gallon
-1 kilogram = 2.204 pound
-*/
 
 document.getElementById("convert-btn").addEventListener("click", function () {
     const meterTofeet = Number(inputTxt.value) * 3.281
